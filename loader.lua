@@ -9,7 +9,7 @@ local KeyAuthApp = {
 }
 
 -- URL del script principal (CAMBIAR ESTA URL)
-local SCRIPT_URL = "https://raw.githubusercontent.com/samxx2205/winlol/refs/heads/main/winlol.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/samxx2205/winlol/refs/heads/main/winlolupdated.lua"
 
 -- URL de tu tienda Komerza (CAMBIAR ESTA URL)
 local STORE_URL = "winlol.mykomerza.com"
@@ -153,4 +153,5 @@ else
     end
     
     LocalPlayer:Kick("❌ LICENCIA INVÁLIDA\n\n━━━━━━━━━━━━━━━━━━━━━━\n\n" .. errorMsg .. "\n\n🛒 Compra/Renueva tu licencia en:\n" .. STORE_URL .. "\n\n💬 Soporte: discord.gg/TU-DISCORD\n\n━━━━━━━━━━━━━━━━━━━━━━")
+
 end
